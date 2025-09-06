@@ -1,6 +1,12 @@
-const CardInicio = ({titulo, imagen, texto}) => {
+import Carrusel from "./carrrusel";
+
+const CardInicio = ({ titulo, imagen, texto }) => {
+
 
     return (
+
+
+
         <div className="card-Base">
             <header className="card-Header">
                 <div className="card-Titulo">
