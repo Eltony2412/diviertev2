@@ -44,7 +44,7 @@ const Login = () => {
     return (
         <main>
             <form onSubmit={onSubmit}>
-                <p>HOLA MUNDO</p>
+                <p>HOLA MUNDOddddddd</p>
                 <label>USUARIO</label>
                 <input type="text" id="user" value={user} onChange={(e) => setUser(e.target.value)}></input>
 
